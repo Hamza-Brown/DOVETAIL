@@ -1,0 +1,458 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+
+}
+body{
+    background-color: #f2f5fc;
+   
+}
+
+.main-info{
+    width: 600px;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 130px 0 140px 110px;
+}
+.main-info div h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    color: #232323;
+    font-size: 55px;
+    margin:15px 0 20px 0;
+}
+
+.main-info div p{
+    color: gray;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.download-btn{
+    margin-top: 40px;
+    color: #f2f5fc;
+    background-color: #036177 ;
+    width: 180px;
+    height: 65px;
+    border: 1px solid #036177 ;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 8px;
+    transition:  color 0.15s;
+}
+
+.download-btn:hover{
+    color: #b8dec9;
+    background-color: #232323;
+    
+}
+.download-btn:active{
+    opacity: 0.9;
+}
+.main-img{
+    display: inline-block;
+    margin-right: 110px;
+    
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+marquee{
+    font-size: 45px;
+    margin: 50px 0 50px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    background-color: #3d8b947a;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    color: #232323;
+}
+
+
+
+
+
+.widget{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 120px 0 120px 0;
+    
+}
+
+.widget .box-1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction:column ;
+    align-items: center;
+    height: 200px;
+    width: 210px;
+    text-align: center;
+    padding: 60px 35px;
+}
+.widget .box-1 i{
+    font-size: 70px;
+    background-color: #0aa195;
+    color:white;
+    width: 70px;
+    height: 70px;
+    padding: 12px 14px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+
+   
+    
+}
+.widget .box-1 h4{
+    color: #232323;
+    font-size: 25px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.widget .box-1 p{
+    color: rgb(109, 107, 107);
+}
+
+
+.count-widget{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px 0 60px 0;
+}
+
+.count-img{
+    display: inline-block;
+}
+
+.count-info{
+    display: inline-block;
+    width: 600px;
+}
+.count-info h4{
+    font-size: 25px;
+    margin: 0 0 15px 0;
+}
+.count-info p{
+    font-size: 20px;
+    color: rgb(109, 107, 107); 
+    margin-bottom: 20px;
+}
+
+
+.banner{
+   
+    margin: 10px 200px ;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    background-image: url(banner2.avif);
+    background-position: center;
+    opacity: 0.9;
+    
+    
+   
+
+}
+.banner h4{
+    font-size: 45px;
+    color: white;
+    text-shadow: 4px 4px 6px #000000;
+    margin-bottom:25px ;
+}
+.banner p{
+    font-size: 25px;
+    color: #17d3c0;
+    text-shadow: 4px 4px 6px #000000;
+    margin-bottom: 39px;
+}
+.banner button{
+    border: 1px solid #232323;
+    width: 140px;
+    height: 55px;
+    background-color: #232323;
+    font-size: 25px;
+    color: white;
+    border-radius: 2px;
+}
+
+
+.projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 200px 100px;
+
+}
+.projects h3{
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #232323;
+}
+.projects p{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #232323;
+}
+.projects .boxes{
+   
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+   
+}
+.projects .boxes .box-1 img{
+    width: 280px;
+    object-fit: cover;
+    margin-bottom: 30px;
+    border-radius: 6px 6px 0 0;
+}
+.projects .boxes .box-1{
+    display: inline-block;
+    border-radius: 6px;
+    width: 280px;
+    margin: 0 60px;
+
+    
+    text-align: center;
+    background-color:#FAF9F6;
+}
+
+.projects .boxes .box-1 h2{
+    font-size: 22px;
+    margin-bottom: 15px;
+    padding: 0 10px;
+}
+.projects .boxes .box-1 p{
+    font-size: 15px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+.projects .boxes .box-1 button{
+    width: 100px;
+    height: 30px;
+    border: 1px solid #0aa195;
+    border-radius: 25px;
+    font-size: 18px;
+    color: white;
+    background-color: #0aa195;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.projects .boxes .box-1 button:active{
+ opacity: 0.8;
+}
+
+
+@media(max-width:800px){
+    .main-info{
+        margin:27px 0 0 71px;
+        
+    }
+    .main-info div {
+        width: 520px;
+    }
+    .main-info div h1{
+        font-size: 55px;
+    }
+    .main-info div p{
+        font-size: 22px;
+        text-align: justify;
+    }
+    .main-img{
+        position: absolute;
+        top: 147px;
+        left: 350px;
+        z-index: -1;
+        margin: 0;
+    }
+    .main-img img{
+        width: 271px;
+        opacity: 0.8;
+    }
+    .download-btn{
+        width: 120px;
+        height: 55px;
+        font-size: 18px;
+    }
+    marquee{
+        height: 70px
+    }
+    .widget{
+        flex-direction: row;
+        margin-top:0 ;
+        margin-bottom: 15px;
+    }
+    .widget .box-1{
+        padding: 60px 5px;
+    }
+    .count-widget{
+        flex-direction: column;
+    }
+    .count-widget img{
+        width: 346px;
+        
+    }
+    .count-info{
+        width: 312px;
+    }
+    .count-info h4 {
+        font-size: 18px;
+    }
+    .count-info p {
+        font-size: 15px;
+        text-align: justify;
+    }
+    .banner{
+        margin: 0;
+        height: 357px;
+        width: 100%;
+    }
+    .banner h4 {
+        font-size: 37px;
+    }
+    .banner p {
+        font-size: 15px;
+        padding: 0 15px;
+    }
+    .projects{
+        margin: 120px 0;
+    }
+    .projects p {
+        font-size: 21px;
+        padding: 0 120px;
+        text-align: justify;
+    }
+    .projects .boxes{
+        flex-direction: column;
+    }
+    .projects .boxes .box-1{
+        margin-top: 20px;
+        
+    }
+    .footer-info {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
+@media(max-width:400px){
+    
+    .main-info{
+        margin:27px 0 0 16px;
+        width: 300px;
+        
+    }
+    .main-info div {
+        width: 287px;
+    }
+    .main-info div h1{
+        font-size: 29px;
+    }
+    .main-info div p{
+        font-size: 22px;
+        text-align: justify;
+    }
+    .main-img{
+        position: absolute;
+        top: 130px;
+        left: 173px;
+        z-index: -1;
+    }
+    .main-img img{
+        width:144px;
+        opacity: 0.8;
+    }
+    .download-btn{
+        width: 120px;
+        height: 55px;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    marquee{
+        height: 70px
+    }
+    .widget{
+        flex-direction: column;
+        margin-top:0 ;
+        margin-bottom: 15px;
+    }
+    .slide-text{
+        width: 100%;
+    }
+    .boxes{
+        width: 100%;
+    }
+    .widget .box-1{
+        padding-top: 40px;
+    }
+    .count-widget{
+        flex-direction: column;
+    }
+    .count-widget img{
+        width: 300px;
+        
+    }
+    .count-info{
+        width: 261px;
+    }
+    .count-info h4 {
+        font-size: 18px;
+    }
+    .count-info p {
+        font-size: 15px;
+        text-align: justify;
+    }
+    .banner{
+        margin: 0;
+        height: 357px;
+        width: 100%;;
+    }
+    .banner h4 {
+        font-size: 27px;
+    }
+    .banner p {
+        font-size: 14px;
+        padding: 0 15px;
+    }
+    .projects{
+        margin: 120px 0;
+    }
+    .projects p {
+        font-size: 18px;
+        padding: 0 25px;
+        text-align: justify;
+    }
+    .projects .boxes{
+        flex-direction: column;
+    }
+    .projects .boxes .box-1{
+        margin-top: 41px;
+        
+    }
+    .projects h3{
+        font-size: 29px;
+    }
+    .footer-info {
+        flex-direction: column;
+        text-align: center;
+    }
+   
+    
+    
+}
+
